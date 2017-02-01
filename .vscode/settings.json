@@ -1,0 +1,8 @@
+{
+    "typescript.check.workspaceVersion": false,
+    "files.exclude": {
+        "**/*.js": { "when": "$(basename).ts"},
+        "**/*.js.map": { "when": "$(basename)"}
+    }
+
+}
